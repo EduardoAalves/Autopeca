@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-floating">
+        <select class="form-select" id="floatingSelect">
+          <option selected>Selecione a peça</option>
+          <option value="1">{{ atualizar[0].descricao }}</option>
+          <option value="2">{{ atualizar[1].descricao }}</option>
+          <option value="3">{{ atualizar[2].descricao }}</option>
+          <option value="4">{{ atualizar[3].descricao }}</option>
+          <option value="5">{{ atualizar[4].descricao }}</option>
+          <option value="6">{{ atualizar[5].descricao }}</option>
+          <option value="7">{{ atualizar[6].descricao }}</option>
+
+        </select>
+        <label for="floatingSelect">Peças</label>
+      </div>
+      <br>
+      <div class="form-floating">
+        <input type="number" class="form-control" id="floatingPassword">
+        <label for="floatingPassword">Quantidade</label>
+      </div>
+    <br>
+    <button routerLink="/lista" (click)="entrar()" class="col-12 btn btn-primary">
+        Atualizar
+    </button>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="container">
+  <div class="text-center">
+    <h1 class="text-primary">Lista de Estoque</h1>
+  </div>
+    <div>
+        <br>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Codigo</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Disponivel</th>
+                <th scope="col">Maximo</th>
+                <th scope="col">Minimo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">{{ lista[0].codigo }}</th>
+                <td>{{ lista[0].descricao }}</td>
+                <td>{{ lista[0].disponivel }}</td>
+                <td>{{ lista[0].maximo }}</td>
+                <td>{{ lista[0].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[1].codigo }}</th>
+                <td>{{ lista[1].descricao }}</td>
+                <td>{{ lista[1].disponivel }}</td>
+                <td>{{ lista[1].maximo }}</td>
+                <td>{{ lista[1].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[2].codigo }}</th>
+                <td>{{ lista[2].descricao }}</td>
+                <td>{{ lista[2].disponivel }}</td>
+                <td>{{ lista[2].maximo }}</td>
+                <td>{{ lista[2].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[3].codigo }}</th>
+                <td>{{ lista[3].descricao }}</td>
+                <td>{{ lista[3].disponivel }}</td>
+                <td>{{ lista[3].maximo }}</td>
+                <td>{{ lista[3].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[4].codigo }}</th>
+                <td>{{ lista[4].descricao }}</td>
+                <td>{{ lista[4].disponivel }}</td>
+                <td>{{ lista[4].maximo }}</td>
+                <td>{{ lista[4].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[5].codigo }}</th>
+                <td>{{ lista[5].descricao }}</td>
+                <td>{{ lista[5].disponivel }}</td>
+                <td>{{ lista[5].maximo }}</td>
+                <td>{{ lista[5].minimo }}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{ lista[6].codigo }}</th>
+                <td>{{ lista[6].descricao }}</td>
+                <td>{{ lista[6].disponivel }}</td>
+                <td>{{ lista[6].maximo }}</td>
+                <td>{{ lista[6].minimo }}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
